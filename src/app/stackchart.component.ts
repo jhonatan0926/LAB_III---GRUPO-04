@@ -32,7 +32,9 @@ export class StackchartComponent implements OnInit {
   data = [
     {
       legend: 'HABITANTES (Millones)',
-      dataPoints: [32, 19, 212, 50, 28, 17, 45, 3, 7, 0.1],
+      dataPoints: [
+        32.97, 19.12, 212.6, 50.88, 28.44, 17.64, 45.38, 3.474, 7.133, 0.107,
+      ],
     },
   ];
   // @Input() name: string;
@@ -80,16 +82,16 @@ export class StackchartComponent implements OnInit {
           type: 'category',
           boundaryGap: false,
           data: [
-            'Perú',
-            'Chile',
-            'Brasil',
-            'Colombia',
-            'Venezuela',
-            'Ecuador',
-            'Argentina',
-            'Uruguay',
-            'Paraguay',
-            'Aruba',
+            'Perú/Lima',
+            'Chile/Santiago de Chile',
+            'Brasil/Brasilia',
+            'Colombia/Bogotá',
+            'Venezuela/Caracas',
+            'Ecuador/Quito',
+            'Argentina/Buenos Aires',
+            'Uruguay/Montevideo',
+            'Paraguay/Asunción',
+            'Aruba/Oranjestad',
           ],
         },
       ],
